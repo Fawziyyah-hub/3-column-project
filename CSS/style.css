@@ -1,0 +1,108 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 375px;
+    
+}
+
+.container{
+    display: flex;
+    width: 189%;
+    height: 60vh;
+    
+}
+
+.sec-1{
+    background-color:hsl(31, 77%, 52%) ; 
+    border-radius: 12px 0 0 12px;
+}
+
+.sec-1 img{
+    margin: 30px;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    bottom: 35px;
+    left: 33px;
+
+}
+
+.sec-2{
+    background-color: hsl(184, 100%, 22%) ;
+}
+
+.sec-2 img{
+    margin: 30px;
+}
+
+.sec-3{
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0 12px 12px 0;
+}
+
+.sec-3 img{
+    margin: 30px;
+}
+
+p{
+    color: white;
+    position: relative;
+    left: 20px;
+    width: 85%;
+    font-size: 15px;
+    bottom: 45px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    width: 60% ;
+    position: relative;
+    left: 25%;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.sec-1 button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.sec-2 button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.sec-3 button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.sec-1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.sec-2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.sec-3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
